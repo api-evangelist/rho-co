@@ -1,0 +1,108 @@
+aid: rho-co
+name: Rho
+description: Rho is an all-in-one finance platform for businesses that combines business banking, treasury, corporate cards, expense management, bill pay, invoicing, and automated month-end close. Customers get a business checking account with high FDIC sweep insurance, a yield-bearing treasury product, corporate cards with cash back, and zero-fee bill pay, all reconciled against connected accounting systems. Rho serves startups, small businesses, enterprises, accountants, banks, and consumer brands, with no per-seat fees. The platform exposes APIs for use cases such as vendor onboarding and virtual card issuance so partners can embed Rho capabilities into their own portals. Native integrations exist for QuickBooks Online, NetSuite, Sage Intacct, and Microsoft Dynamics 365 Business Central.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Rho
+  - Business Banking
+  - Treasury
+  - Corporate Cards
+  - Expense Management
+  - Bill Pay
+  - Invoicing
+  - AP Automation
+  - Accounting
+  - Finance
+  - Virtual Cards
+  - Vendor Onboarding
+url: https://raw.githubusercontent.com/api-evangelist/rho-co/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis:
+  - aid: rho-co:rho-platform-api
+    name: Rho Platform API
+    description: Rho exposes APIs for partners and customers to embed Rho banking and payments capabilities, including a Virtual Card API for programmatically issuing cards and a Vendor Onboarding API for embedding payment and tax form collection in supplier portals. Rho also leverages open banking APIs to aggregate external accounts into a unified liquidity view. API details are typically provisioned through Rho's partnerships and customer success teams.
+    humanURL: https://www.rho.co/
+    tags:
+      - Banking
+      - Cards
+      - Vendors
+      - Onboarding
+      - Open Banking
+      - Treasury
+    properties:
+      - type: Website
+        url: https://www.rho.co/
+      - type: VirtualCardAPI
+        url: https://moreinfo.rho.co/corporate-card-issuer-virtual-card-api-custom-payment-flows
+      - type: VendorOnboardingAPI
+        url: https://moreinfo.rho.co/solution-vendor-onboarding-api-custom-supplier-portals
+      - type: OpenBanking
+        url: https://moreinfo.rho.co/financial-solution-consolidated-view-banking-open-apis
+      - type: Integrations
+        url: https://www.rho.co/integrations
+      - type: Pricing
+        url: https://www.rho.co/pricing
+      - type: SignUp
+        url: https://signup.rho.co
+    features:
+      - name: Business Checking and Savings
+        description: Operating accounts with high FDIC sweep insurance and zero ACH fees.
+      - name: Treasury
+        description: Yield-bearing cash management product for idle balances.
+      - name: Corporate Cards
+        description: Issue physical and virtual cards with cash back, spend controls, and real-time visibility.
+      - name: Virtual Card API
+        description: Programmatically issue virtual cards, set limits, and retrieve transaction data for embedded payment flows.
+      - name: Bill Pay
+        description: Zero-fee AP with AI invoice scanning, approval workflows, and direct payment from Rho balances.
+      - name: Expense Management
+        description: Capture receipts, code transactions, and eliminate manual expense reports.
+      - name: Invoicing
+        description: Send invoices and collect customer payments alongside banking and AP.
+      - name: Vendor Onboarding API
+        description: Embed secure payment and tax form collection into supplier portals and internal apps.
+      - name: Open Banking Aggregation
+        description: Pull real-time balances from external institutions for a consolidated liquidity view.
+      - name: Automated Close
+        description: Automate monthly book close with reconciliation across banking, cards, treasury, and AP.
+    useCases:
+      - name: Startup Banking
+        description: Replace a traditional business bank account with operating, treasury, cards, and AP in a single platform.
+      - name: Multi-Entity Finance Operations
+        description: Manage cash, cards, and AP across multiple legal entities from one dashboard.
+      - name: Embedded Vendor Onboarding
+        description: Use the Vendor Onboarding API to collect payee details directly inside your own supplier portal.
+      - name: Embedded Virtual Card Issuance
+        description: Issue virtual cards through your own software for custom payment flows.
+      - name: Accountant Workflows
+        description: Give accounting firms a Partner Portal for managing client books across Rho accounts.
+    integrations:
+      - name: QuickBooks Online
+      - name: NetSuite
+      - name: Sage Intacct
+      - name: Microsoft Dynamics 365 Business Central
+      - name: Xero
+      - name: Plaid
+      - name: ACH
+      - name: Wire
+      - name: SAFE Note Generator
+    authentication:
+      - type: API Key
+        description: API key authentication for partner and customer integrations, provisioned through Rho.
+common:
+  - type: Website
+    url: https://www.rho.co/
+  - type: Pricing
+    url: https://www.rho.co/pricing
+  - type: Integrations
+    url: https://www.rho.co/integrations
+  - type: SignUp
+    url: https://signup.rho.co
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
