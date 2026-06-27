@@ -47,7 +47,7 @@ apis:
         url: https://www.rho.co/integrations
       - type: Pricing
         url: https://www.rho.co/pricing
-      - type: SignUp
+      - type: Signup
         url: https://signup.rho.co
     features:
       - name: Business Checking and Savings
@@ -101,7 +101,7 @@ common:
     url: https://www.rho.co/pricing
   - type: Integrations
     url: https://www.rho.co/integrations
-  - type: SignUp
+  - type: Signup
     url: https://signup.rho.co
 maintainers:
   - FN: Kin Lane
