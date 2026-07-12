@@ -95,6 +95,8 @@ apis:
       - type: API Key
         description: API key authentication for partner and customer integrations, provisioned through Rho.
 common:
+  - type: DomainSecurity
+    url: security/rho-co-domain-security.yml
   - type: Website
     url: https://www.rho.co/
   - type: Pricing
