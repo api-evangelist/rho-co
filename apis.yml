@@ -2,9 +2,21 @@ aid: rho-co
 name: Rho
 description: Rho is an all-in-one finance platform for businesses that combines business banking, treasury, corporate cards, expense management, bill pay, invoicing, and automated month-end close. Customers get a business checking account with high FDIC sweep insurance, a yield-bearing treasury product, corporate cards with cash back, and zero-fee bill pay, all reconciled against connected accounting systems. Rho serves startups, small businesses, enterprises, accountants, banks, and consumer brands, with no per-seat fees. The platform exposes APIs for use cases such as vendor onboarding and virtual card issuance so partners can embed Rho capabilities into their own portals. Native integrations exist for QuickBooks Online, NetSuite, Sage Intacct, and Microsoft Dynamics 365 Business Central.
 type: Index
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rho-co.png
 tags:
   - Rho
   - Business Banking
