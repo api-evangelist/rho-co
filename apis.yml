@@ -43,7 +43,7 @@ tags:
   - Vendor Onboarding
 url: https://raw.githubusercontent.com/api-evangelist/rho-co/refs/heads/main/apis.yml
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: rho-co:rho-platform-api
@@ -118,6 +118,8 @@ apis:
       - type: API Key
         description: API key authentication for partner and customer integrations, provisioned through Rho.
 common:
+  - url: https://www.rho.co/blog
+    type: Blog
   - type: DomainSecurity
     url: security/rho-co-domain-security.yml
   - type: Website
