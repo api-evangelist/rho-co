@@ -118,6 +118,12 @@ apis:
       - type: API Key
         description: API key authentication for partner and customer integrations, provisioned through Rho.
 common:
+  - type: Plans
+    url: plans/rho-co-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/rho-co-rate-limits.yml
+  - type: FinOps
+    url: finops/rho-co-finops.yml
   - url: https://www.rho.co/blog
     type: Blog
   - type: DomainSecurity
