@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/rho-co/integrations
 - https://zapier.com/apps/rho/integrations
@@ -10,9 +10,41 @@ checked:
 - https://composio.dev/toolkits/rho-co
 - https://monid.ai/tools/rho-co
 - https://n8n.io/integrations/rho-co/
+- https://registry.modelcontextprotocol.io/v0/servers
 - https://zapier.com/apps/rho-co/integrations
 - https://zapier.com/apps/rho/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: MCP Registry
+  partner: mcp
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://registry.modelcontextprotocol.io/v0/servers?search=co.rho
+  contract_reference:
+    register: registry.modelcontextprotocol.io
+    spec_file: null
+    role: mcp-server-listing
+    registered_name: co.rho/api
+    register_id: co.rho/api
+    detected_by: sweep-agent-tools.py
+    detected: '2026-10-14'
+  mcp_registry:
+    servers:
+    - co.rho/api
+    hosted_remote: 1
+    local_package: 0
+    transports:
+      streamable-http: 1
+    auth_declared: 1
+    catalog_declared: false
+    namespace_domains:
+    - rho.co
+  matched_by:
+  - namespace-domain
+  detected_by: sweep-agent-tools.py
+  first_seen: '2026-10-14'
 templates: []
