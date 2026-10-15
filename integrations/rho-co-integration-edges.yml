@@ -13,9 +13,27 @@ checked:
 - https://registry.modelcontextprotocol.io/v0/servers
 - https://zapier.com/apps/rho-co/integrations
 - https://zapier.com/apps/rho/integrations
+- stripe/integrations/stripe-integration-edges.yml
 summary: null
 marketplace_apps: []
 edges:
+- partner_name: Stripe (own)
+  partner: stripe
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.stripe.com/apps/rho
+  mirror_of: stripe/integrations/stripe-integration-edges.yml
+  apps:
+  - Rho
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  category: banking_services
 - partner_name: MCP Registry
   partner: mcp
   partner_match: register
@@ -31,7 +49,7 @@ edges:
     registered_name: co.rho/api
     register_id: co.rho/api
     detected_by: sweep-agent-tools.py
-    detected: '2026-10-14'
+    detected: '2026-10-15'
   mcp_registry:
     servers:
     - co.rho/api
