@@ -1,4 +1,4 @@
-# rho-co
+# Rho
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rho — finance platform (banking + AP + spend) for businesses
+Rho is an all-in-one finance platform for businesses that combines business banking, treasury, corporate cards, expense management, bill pay, invoicing, and automated month-end close. Customers get a business checking account with high FDIC sweep insurance, a yield-bearing treasury product, corporate cards with cash back, and zero-fee bill pay, all reconciled against connected accounting systems. Rho serves startups, small businesses, enterprises, accountants, banks, and consumer brands, with no per-seat fees. The platform exposes APIs for use cases such as vendor onboarding and virtual card issuance so partners can embed Rho capabilities into their own portals. Native integrations exist for QuickBooks Online, NetSuite, Sage Intacct, and Microsoft Dynamics 365 Business Central.
+
+**Areas:** Rho · Business Banking · Treasury · Corporate Cards · Expense Management · Bill Pay · Invoicing · AP Automation · Accounting · Finance · Virtual Cards · Vendor Onboarding
+
+## Rho on APIs.io
+
+Everything profiled for Rho is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rho-co/](https://apis.io/providers/rho-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Rho Platform API](https://apis.io/apis/rho-co/rho-platform-api/) — Rho exposes APIs for partners and customers to embed Rho banking and payments capabilities, including a Virtual Card API for programmatically issuing cards…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rho Co Domain Security](https://apis.io/security/rho-co/rho-co-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rho Co Plans Pricing](https://apis.io/plans/rho-co/rho-co-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rho Co Rate Limits](https://apis.io/rate-limits/rho-co/rho-co-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Rho Co Finops](https://apis.io/finops/rho-co/rho-co-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.rho.co/)
+- [Pricing](https://www.rho.co/pricing)
+- [Blog](https://www.rho.co/blog)
+
+## API Evangelist rating
+
+**Kin Score 10.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rho-co/](https://apis.io/providers/rho-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rho: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rho-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
